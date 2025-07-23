@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+.ibukun_part{
+    display: flex;
+    width: 100%;
+    border: 4px;
+}
+.column1{
+    width: 50%;
+    height: 10px;
+    font-family: cursive;
+}
+.column2{
+    width: 50%;
+    font-family: cursive;
+    height: 10px;
+}
+.image1{
+    width: 100%;
+    height: 250px;
+    word-spacing: 10px;
+}
+.image2{
+    width: 100%;
+    height: 250px;
+    word-spacing: 10px;
+}
+.txt{
+    margin-bottom: 20px;
+    margin-left: 7px;
+    font-family: 'Arial Narrow';
+}
+.tt {
+    margin-bottom: 20px;
+    margin-left: 7px;
+    font-family: 'Arial Narrow';
+}
+.bot{
+    margin-left: 7px;
+    font-family: 'Arial Narrow';
+}
+.ib {
+    margin-bottom: 20px;
+    margin-left: 7px;
+    font-family: 'Arial Narrow';
+}
+.ibk{
+    margin-bottom: 20px;
+    margin-left: 7px;
+    font-family: 'Arial Narrow';
+}
+.text{
+    margin-bottom: 20px;
+    margin-left: 7px;
+    font-family: 'Arial Narrow';
+}

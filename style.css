@@ -18,20 +18,25 @@
     width: 50%;
     display: flex;
     margin: auto;
+    padding: 20px;
 }
 .links_column li {
     list-style: none;
     padding: 10px;
     position: relative;
     padding: 9px 10px;
-    background-color: transparent;
-    border: 1px solid transparent;
+    
 }
 .links_column a {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
     padding: 15px 25px;
+    background-color: transparent;
+    border: 1px solid #646d7c;
+    transition: all 0.3s ease;
+    line-height: 22px;
+
 }
 .hero_banner {
     background-image: url(./image/bg-1.jpg);
@@ -202,4 +207,111 @@ text-align: center;}
     align-items: center;
 }
 
-
+.contact_form {
+    background-image: url(./image/bg-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_box {
+    max-width: 750px;
+}
+.form_contents h2 {
+    font-size: 36px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #333;
+}
+.form_list {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    display: flex;
+}
+.form_title1 {
+    width: 50%;
+    margin-bottom: 15px;
+    padding-left: 0;
+}
+.form_title2 {
+    width: 50%;
+    margin-bottom: 15px;
+    padding-right: 0;
+}
+.form_list input {
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+    background: #f2f2f266 none repeat scroll 0 0;
+}
+.form_cntrl {
+    width: 100%;
+    padding: 6px 12px;
+    color: #000;
+}
+.textarea.form_cntrl {
+    display: block;
+    height: auto;
+    padding: 6px 12px;
+    margin: 0;
+    overflow: auto;
+    width: 100%;
+    color: #000;
+    outline: none;
+    border: none;
+    background: #f2f2f266 none repeat scroll 0 0;
+}
+.button {
+    background-color: #e6e6e6;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 18px;
+    border-color: #8c8c8c;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #262628 none repeat scroll 0 0;
+}
+.button:hover {
+    opacity: 0.9;
+}
+.form_contents {
+    margin: auto;
+    padding: auto;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    text-align: center;
+}
+.form {
+    width: 100%;
+}
+.form_contents p {
+    background: #f2f2f266 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    padding: 20px 15px;
+}
+.form_comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.full-width {
+    width: 100%;
+    margin-top: 30px;
+}

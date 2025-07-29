@@ -5,19 +5,23 @@
 }
 .ibukun_part{
     display: flex;
-    width: 100%;
-    border: 4px;
-    justify-content: space-between;
+    width: 90%;
+    gap: 30px;
+    margin: auto;
 }
 .column1{
     width: 45%;
-    height: 10px;
+    /* height: 10px; */
     font-family: cursive;
+    background-color: #f2f2f2;
+    padding: auto;
 }
 .column2{
     width: 45%;
     font-family: cursive;
-    height: 10px;
+    /* height: 10px; */
+    background-color: #f2f2f2;
+    padding: auto;
 }
 .image1{
     width: 100%;
@@ -33,28 +37,36 @@
     margin-bottom: 20px;
     margin-left: 7px;
     font-family: 'Arial Narrow';
+    font-size: 17px;
+    padding: 0 10px;
 }
 .tt {
     margin-bottom: 20px;
     margin-left: 7px;
     font-family: 'Arial Narrow';
+    font-size: 17px;
+    padding: 0 10px;
 }
 .bot{
     margin-left: 7px;
     font-family: 'Arial Narrow';
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
 }
 .ib {
     margin-bottom: 20px;
     margin-left: 7px;
     font-family: 'Arial Narrow';
+    font-size: 17px;
+    padding: 0 10px;
 }
 .ibk{
     margin-bottom: 20px;
     margin-left: 7px;
     font-family: 'Arial Narrow';
-}
-.text{
-    margin-bottom: 20px;
-    margin-left: 7px;
-    font-family: 'Arial Narrow';
+    font-size: 17px;
+    padding: 0 10px;
 }

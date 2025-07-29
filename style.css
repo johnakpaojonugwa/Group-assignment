@@ -7,14 +7,15 @@
     display: flex;
     width: 100%;
     border: 4px;
+    justify-content: space-between;
 }
 .column1{
-    width: 50%;
+    width: 45%;
     height: 10px;
     font-family: cursive;
 }
 .column2{
-    width: 50%;
+    width: 45%;
     font-family: cursive;
     height: 10px;
 }
